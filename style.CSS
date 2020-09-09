@@ -1,0 +1,46 @@
+/*selector {
+	Property : value;
+}*/
+
+* {text-align: left;}
+
+body {background-image: url(https://images.unsplash.com/photo-1598184274542-0281b027de9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80);
+}
+   
+h1{text-align: center;
+	border: 5px solid rgb(255, 176, 170, 1)
+}
+h1 + p:hover {color: #BB4E7D;
+	cursor: pointer;
+	
+
+
+	text-align: left;
+}
+p {color: green;
+	text-align: center;
+	font: 20px/20px Georgia, sans-serif;
+}
+
+p {
+	color pink !important;
+}
+
+
+
+
+li{display: inline-block;
+list-style: none;}
+
+.webtext:last-child { border: dashed 5px #BB4E7D;
+ }
+
+ .active { color: red;
+  }
+
+  #div1{ background: rgba( 0, 0, 255, 0.2); }
+
+  #div2{ background: rgba( 255, 0, 0, 0.2); }
+
+  
+
